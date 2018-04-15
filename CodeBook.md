@@ -2,8 +2,8 @@
 
 **Study Design**
 This Getting and Cleaning Data project uses a dataset from a study that evaluated 30 volunteers(subjects) performing six activities while wearing a Samsung Galaxy S II.  During the activities, 561 measurements were collected.  The 30 volunteers were divided into two groups: 
-	 - 70% in training
-	 - 30% in test
+ - 70% in training
+ - 30% in test
 
 The original data sets downloaded included variables and values in separate files.
 For each training and test group, the following files were used:
@@ -23,6 +23,7 @@ only those variables containing either a mean() or std() value were added to a d
 Finally, an output file,  `tidy.txt`, was created based on the average of the subject and activity per variable.
 
 **Instruction List**
+
 ***Pre-requisites:***
 This project requires the following packages to be installed before execution:
 
@@ -32,15 +33,16 @@ This project requires the following packages to be installed before execution:
 Project output (`tidy.txt`) may be replicated by sourcing and executing the included **run_analysis.R** script.
 
 **Code Book**
+
 6 activities were included in the study:
-| ID        |     Activity |       
+| ID        | Label           
 | ------------- |:-------------:| 
-| 1 | WALKING |
-| 2 | WALKING_UPSTAIRS |
-| 3 | WALKING_DOWNSTAIRS |
-| 4 | SITTING |
-| 5 | STANDING |
-| 6 | LAYING |
+| 1 | WALKING 
+| 2 | WALKING_UPSTAIRS 
+| 3 | WALKING_DOWNSTAIRS 
+| 4 | SITTING 
+| 5 | STANDING 
+| 6 | LAYING 
 
 Abbreviations used in variable names include: 
 
@@ -53,69 +55,70 @@ Abbreviations used in variable names include:
 | Std | Standard Deviation |
 
 66 variables were included in the final output:
-TimeBodyAccMeanX
-TimeBodyAccMeanY
-TimeBodyAccMeanZ
-TimeBodyAccStdX
-TimeBodyAccStdY
-TimeBodyAccStdZ
-TimeGravityAccMeanX
-TimeGravityAccMeanY
-TimeGravityAccMeanZ
-TimeGravityAccStdX
-TimeGravityAccStdY
-TimeGravityAccStdZ
-TimeBodyAccJerkMeanX
-TimeBodyAccJerkMeanY
-TimeBodyAccJerkMeanZ
-TimeBodyAccJerkStdX
-TimeBodyAccJerkStdY
-TimeBodyAccJerkStdZ
-TimeBodyGyroMeanX
-TimeBodyGyroMeanY
-TimeBodyGyroMeanZ
-TimeBodyGyroStdX
-TimeBodyGyroStdY
-TimeBodyGyroStdZ
-TimeBodyGyroJerkMeanX
-TimeBodyGyroJerkMeanY
-TimeBodyGyroJerkMeanZ
-TimeBodyGyroJerkStdX
-TimeBodyGyroJerkStdY
-TimeBodyGyroJerkStdZ
-TimeBodyAccMagMean
-TimeBodyAccMagStd
-TimeGravityAccMagMean
-TimeGravityAccMagStd
-TimeBodyAccJerkMagMean
-TimeBodyAccJerkMagStd
-TimeBodyGyroMagMean
-TimeBodyGyroMagStd
-TimeBodyGyroJerkMagMean
-TimeBodyGyroJerkMagStd
-FreqBodyAccMeanX
-FreqBodyAccMeanY
-FreqBodyAccMeanZ
-FreqBodyAccStdX
-FreqBodyAccStdY
-FreqBodyAccStdZ
-FreqBodyAccJerkMeanX
-FreqBodyAccJerkMeanY
-FreqBodyAccJerkMeanZ
-FreqBodyAccJerkStdX
-FreqBodyAccJerkStdY
-FreqBodyAccJerkStdZ
-FreqBodyGyroMeanX
-FreqBodyGyroMeanY
-FreqBodyGyroMeanZ
-FreqBodyGyroStdX
-FreqBodyGyroStdY
-FreqBodyGyroStdZ
-FreqBodyAccMagMean
-FreqBodyAccMagStd
-FreqBodyBodyAccJerkMagMean
-FreqBodyBodyAccJerkMagStd
-FreqBodyBodyGyroMagMean
-FreqBodyBodyGyroMagStd
-FreqBodyBodyGyroJerkMagMean
-FreqBodyBodyGyroJerkMagStd
+
+ - TimeBodyAccMeanX
+ - TimeBodyAccMeanY
+ - TimeBodyAccMeanZ
+ - TimeBodyAccStdX
+ - TimeBodyAccStdY
+ - TimeBodyAccStdZ
+ - TimeGravityAccMeanX
+ - TimeGravityAccMeanY
+ - TimeGravityAccMeanZ
+ - TimeGravityAccStdX
+ - TimeGravityAccStdY
+ - TimeGravityAccStdZ
+ - TimeBodyAccJerkMeanX
+ - TimeBodyAccJerkMeanY
+ - TimeBodyAccJerkMeanZ
+ - TimeBodyAccJerkStdX
+ - TimeBodyAccJerkStdY
+ - TimeBodyAccJerkStdZ
+ - TimeBodyGyroMeanX
+ - TimeBodyGyroMeanY
+ - TimeBodyGyroMeanZ
+ - TimeBodyGyroStdX
+ - TimeBodyGyroStdY
+ - TimeBodyGyroStdZ
+ - TimeBodyGyroJerkMeanX
+ - TimeBodyGyroJerkMeanY
+ - TimeBodyGyroJerkMeanZ
+ - TimeBodyGyroJerkStdX
+ - TimeBodyGyroJerkStdY
+ - TimeBodyGyroJerkStdZ
+ - TimeBodyAccMagMean
+ - TimeBodyAccMagStd
+ - TimeGravityAccMagMean
+ - TimeGravityAccMagStd
+ - TimeBodyAccJerkMagMean
+ - TimeBodyAccJerkMagStd
+ - TimeBodyGyroMagMean
+ - TimeBodyGyroMagStd
+ - TimeBodyGyroJerkMagMean
+ - TimeBodyGyroJerkMagStd
+ - FreqBodyAccMeanX
+ - FreqBodyAccMeanY
+ - FreqBodyAccMeanZ
+ - FreqBodyAccStdX
+ - FreqBodyAccStdY
+ - FreqBodyAccStdZ
+ - FreqBodyAccJerkMeanX
+ - FreqBodyAccJerkMeanY
+ - FreqBodyAccJerkMeanZ
+ - FreqBodyAccJerkStdX
+ - FreqBodyAccJerkStdY
+ - FreqBodyAccJerkStdZ
+ - FreqBodyGyroMeanX
+ - FreqBodyGyroMeanY
+ - FreqBodyGyroMeanZ
+ - FreqBodyGyroStdX
+ - FreqBodyGyroStdY
+ - FreqBodyGyroStdZ
+ - FreqBodyAccMagMean
+ - FreqBodyAccMagStd
+ - FreqBodyBodyAccJerkMagMean
+ - FreqBodyBodyAccJerkMagStd
+ - FreqBodyBodyGyroMagMean
+ - FreqBodyBodyGyroMagStd
+ - FreqBodyBodyGyroJerkMagMean
+ - FreqBodyBodyGyroJerkMagStd
