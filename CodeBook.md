@@ -35,14 +35,13 @@ Project output (`tidy.txt`) may be replicated by sourcing and executing the incl
 **Code Book**
 
 6 activities were included in the study:
-| ID        | Label           
-| ------------- |:-------------:| 
-| 1 | WALKING 
-| 2 | WALKING_UPSTAIRS 
-| 3 | WALKING_DOWNSTAIRS 
-| 4 | SITTING 
-| 5 | STANDING 
-| 6 | LAYING 
+
+ - WALKING 
+ - WALKING_UPSTAIRS 
+ - WALKING_DOWNSTAIRS 
+ - SITTING 
+ - STANDING 
+ - LAYING 
 
 Abbreviations used in variable names include: 
 
